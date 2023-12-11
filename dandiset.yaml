@@ -2,15 +2,39 @@
 # It can be edited online at https://dandiarchive.org/dandiset/000717
 # and obtained from the dandiarchive.
 '@context': https://raw.githubusercontent.com/dandi/schema/master/releases/0.6.4/context.json
+about: []
 access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: spike sorting technique
+    schemaKey: MeasurementTechniqueType
+  - name: multi electrode extracellular electrophysiology recording technique
+    schemaKey: MeasurementTechniqueType
+  - name: surgical technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 641430
+  numberOfFiles: 1
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Flynn, Garrett (2023) Create a new dandiset (Version draft) [Data set].
-  DANDI archive. https://dandiarchive.org/dandiset/000717/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
+    name: Mus musculus - House mouse
+    schemaKey: SpeciesType
+  variableMeasured:
+  - ElectricalSeries
+  - Units
+  - ElectrodeGroup
+citation: Flynn, Garrett (2023) CatalystNeuro Placeholder 1 (Version draft) [Data
+  set]. DANDI archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
 contributor:
 - affiliation: []
   email: gflynn@usc.edu
@@ -20,16 +44,37 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-11-30T17:03:49.840085+00:00'
-description: gdxg
+datePublished: '2023-12-11T17:44:24.738984+00:00'
+description: This dandiset is reserved by CatalystNeuro and will be published at a
+  future point in time.
+doi: 10.80507/dandi.123456/0.123456.1234
+ethicsApproval: []
 id: DANDI:000717/draft
 identifier: DANDI:000717
+keywords: []
 license:
-- spdx:CC0-1.0
+- spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000717/versions/draft/assets/
-name: Create a new dandiset
+name: CatalystNeuro Placeholder 1
+protocol: []
+publishedBy:
+  endDate: '2023-12-11T17:44:24.738984+00:00'
+  id: urn:uuid:1eca1192-d124-4082-9a2c-120cf1b68758
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2023-12-11T17:44:24.738984+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:cbd7002c-68c6-4d25-9d30-67269d2e5818
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
+relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.6.4
+studyTarget: []
 url: https://dandiarchive.org/dandiset/000717/draft
 version: draft
+wasGeneratedBy: []
