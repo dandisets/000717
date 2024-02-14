@@ -10,8 +10,8 @@ assetsSummary:
   numberOfBytes: 0
   numberOfFiles: 0
   schemaKey: AssetsSummary
-citation: Flynn, Garrett (2024) NWB Cloud Benchmarks (Version draft) [Data set]. DANDI
-  archive. https://doi.org/10.80507/dandi.123456/0.123456.1234
+citation: Flynn, Garrett (2024) NWB Cloud Benchmarks - HDF5 (Version draft) [Data
+  set]. DANDI archive. https://dandiarchive.org/dandiset/000717/draft
 contributor:
 - affiliation: []
   email: gflynn@usc.edu
@@ -21,11 +21,9 @@ contributor:
   - dcite:ContactPerson
   schemaKey: Person
 dateCreated: '2023-11-30T17:03:49.840085+00:00'
-datePublished: '2024-01-29T16:12:13.358506+00:00'
 description: This dandiset is a collection of derived and generated assets used for
   rigorously assessing file configurations and their impact on performance in cloud
   environments.
-doi: 10.80507/dandi.123456/0.123456.1234
 ethicsApproval: []
 id: DANDI:000717/draft
 identifier: DANDI:000717
@@ -37,20 +35,8 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/000717/versions/draft/assets/
-name: NWB Cloud Benchmarks
+name: NWB Cloud Benchmarks - HDF5
 protocol: []
-publishedBy:
-  endDate: '2024-01-29T16:12:13.358506+00:00'
-  id: urn:uuid:34a23a5e-0577-4652-a638-7168fd717b1c
-  name: DANDI publish
-  schemaKey: PublishActivity
-  startDate: '2024-01-29T16:12:13.358506+00:00'
-  wasAssociatedWith:
-  - id: urn:uuid:2ec14783-9290-4b4e-8d3c-63f463dd91a1
-    identifier: RRID:SCR_017571
-    name: DANDI API
-    schemaKey: Software
-    version: 0.1.0
 relatedResource: []
 repository: https://dandiarchive.org
 schemaKey: Dandiset
