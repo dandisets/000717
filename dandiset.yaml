@@ -19,9 +19,9 @@ assetsSummary:
     schemaKey: MeasurementTechniqueType
   - name: multi electrode extracellular electrophysiology recording technique
     schemaKey: MeasurementTechniqueType
-  numberOfBytes: 197784
-  numberOfFiles: 1
-  numberOfSubjects: 1
+  numberOfBytes: 13830832072
+  numberOfFiles: 2
+  numberOfSubjects: 3
   schemaKey: AssetsSummary
   species:
   - identifier: http://purl.obolibrary.org/obo/NCBITaxon_10090
@@ -30,16 +30,9 @@ assetsSummary:
   variableMeasured:
   - ElectricalSeries
   - ElectrodeGroup
-citation: Flynn, Garrett (2024) NWB Cloud Benchmarks - HDF5 (Version draft) [Data
-  set]. DANDI archive. https://dandiarchive.org/dandiset/000717/draft
-contributor:
-- affiliation: []
-  email: gflynn@usc.edu
-  includeInCitation: true
-  name: Flynn, Garrett
-  roleName:
-  - dcite:ContactPerson
-  schemaKey: Person
+citation: NWB Cloud Benchmarks - HDF5 (2024). (Version draft) [Data set]. DANDI archive.
+  https://dandiarchive.org/dandiset/000717/draft
+contributor: []
 dateCreated: '2023-11-30T17:03:49.840085+00:00'
 description: This dandiset is a collection of derived and generated assets used for
   rigorously assessing file configurations and their impact on performance in cloud
